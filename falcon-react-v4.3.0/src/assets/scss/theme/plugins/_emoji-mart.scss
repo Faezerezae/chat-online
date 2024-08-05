@@ -1,0 +1,23 @@
+em-emoji-picker {
+  position: absolute;
+  padding: 0;
+  z-index: 1;
+  #root {
+      background: red !important;
+    }
+  }
+
+
+.chat-emoji-picker {
+  em-emoji-picker {
+    bottom: 2rem;
+    left: auto;
+    right: 2%;
+  }
+}
+html[data-bs-theme="dark"] {
+  em-emoji-picker {
+    --rgb-background: 11, 23, 39;
+    border: 1px solid var(--#{$prefix}gray-200);
+  }
+}

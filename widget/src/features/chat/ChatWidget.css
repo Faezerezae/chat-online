@@ -1,0 +1,18 @@
+.rcw-message {
+  display: flex;
+  align-items: center;
+}
+
+.rcw-message.sent .rcw-message-text {
+  background-color: #007bff ;
+  color: white;
+  align-self: flex-end;
+  margin-left: auto;
+}
+
+.rcw-message.received .rcw-message-text {
+  background-color: #f1f0f0;
+  color: black;
+  align-self: flex-start;
+  margin-right: auto;
+}
